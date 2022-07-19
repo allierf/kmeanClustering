@@ -1,10 +1,11 @@
 # kmeanClustering
-"kmeans" works locally on my mac computer with some minor issues.
+
+The K-mean clustering algorithm runs until convergence. The k cluster size must be set in the main function.
 I created "k-meansVisual.py" to visualize the data in a python script.
 The program requires that the input file and output file is already created
 
-To run the "kmeans.cpp" :
-g++ -o kmeans kmeans.cpp
+To run the "kmeansClustering.cpp" :
+g++ -o kmeans kmeansClustering.cpp
 ./kmeans
 
 If you want to change the .txt files then you have to change the names in the .cpp file.
